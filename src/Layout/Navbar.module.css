@@ -1,0 +1,24 @@
+header {
+  background-color: #e10600;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 rgb(0, 0, 0);
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 1rem;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+}

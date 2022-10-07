@@ -1,0 +1,21 @@
+.heading {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.sub-heading-container {
+  margin-top: 6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.sub-heading {
+  margin-top: 3rem;
+}
+
+.sub-heading a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
