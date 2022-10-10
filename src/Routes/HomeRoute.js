@@ -1,7 +1,8 @@
 import React from "react";
+import Home from "../Components/Home/Home";
 
 const HomeRoute = () => {
-  return <h1>Home page</h1>;
+  return <Home />;
 };
 
 export default HomeRoute;

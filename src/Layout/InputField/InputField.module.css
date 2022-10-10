@@ -1,0 +1,14 @@
+.input {
+  border: 0;
+  outline: 0;
+  color: rgb(60, 66, 87);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.35rem;
+  line-height: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  min-height: 1.5rem;
+  vertical-align: middle;
+  box-shadow: 0 0 0.03rem 0 rgb(0, 0, 0);
+}
