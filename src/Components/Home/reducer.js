@@ -11,7 +11,7 @@ const Reducer = (state = initialState, action) => {
     case actions.STORE_LATEST_MOVIES:
       newState.latestMovies = action.payload;
       return newState;
-    case actions.STORE_RECOMMENDED_MOVIES:
+    case actions.STORE_UPCOMING_MOVIES:
       newState.upcomingMovies = action.payload;
       return newState;
     default:

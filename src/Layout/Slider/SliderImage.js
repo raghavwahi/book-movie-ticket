@@ -3,10 +3,11 @@ import React from "react";
 import classes from "./SliderImage.module.css";
 
 const SliderImage = (props) => {
-  const containerClasses = `${classes.slide} ${
-    props.visible && classes["active-anim"]
-  }`;
-  
+  let containerClasses = classes.slide;
+  if (props.visible) {
+    containerClasses = `${containerClasses} ${classes["active-anim"]}`;
+  }
+
   return (
     <div className={containerClasses}>
       <img src={props.src} alt={props.alt} />

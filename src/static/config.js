@@ -27,3 +27,7 @@ export const API_DATA = {
   upcoming: "upcomingMovies/",
   events: "events/",
 };
+
+export const STRINGS = {
+  recommendedMovies: "Recommended Movies",
+};
