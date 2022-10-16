@@ -11,18 +11,18 @@ function* fetchAPI(path) {
 }
 
 function* fetchData(action) {
-  if (action.type === actions.FETCH_MOVIES) {
+  if (action.type === actions.FETCH_LATEST_MOVIES) {
     const result = yield call(fetchAPI, API_DATA.latest);
-    yield put(actions.storeMovies(result));
-  } else if (action.type === actions.FETCH_RECOMMENDED_MOVIES) {
-    const result = yield call(fetchAPI, API_DATA.recommended);
-    yield put(actions.storeRecommendedMovies(result));
+    yield put(actions.storeLatestMovies(result));
+  } else if (action.type === actions.FETCH_UPCOMING_MOVIES) {
+    const result = yield call(fetchAPI, API_DATA.upcoming);
+    yield put(actions.storeUpcomingMovies(result));
   }
 }
 
 export default function* watcherSaga() {
   yield takeEvery(
-    [actions.FETCH_MOVIES, actions.FETCH_RECOMMENDED_MOVIES],
+    [actions.FETCH_LATEST_MOVIES, actions.FETCH_UPCOMING_MOVIES],
     fetchData
   );
 }

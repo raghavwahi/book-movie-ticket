@@ -1,22 +1,25 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Slider from "../../Layout/Slider/Slider";
+
 import actions from "./actions";
+import MoviesSlider from "./MoviesSlider";
+import RecommendedMovies from "./RecommendedMovies";
 
 const Home = () => {
-  const { movies, recommendedMovies } = useSelector((store) => store.movies);
+  const { latestMovies, upcomingMovies } = useSelector((store) => store.movies);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.fetchMovies());
-    dispatch(actions.fetchRecommendedMovies());
+    dispatch(actions.fetchLatestMovies());
+    dispatch(actions.fetchUpcomingMovies());
   }, [dispatch]);
 
   return (
     <main>
-        <Slider data={movies}/>
+      <MoviesSlider movies={latestMovies} />
+      <RecommendedMovies movies={upcomingMovies} />
     </main>
-  )
+  );
 };
 
 export default Home;

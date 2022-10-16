@@ -1,29 +1,29 @@
 const actions = {
-  STORE_MOVIES: "STORE_MOVIES",
-  storeMovies: (payload) => {
+  STORE_LATEST_MOVIES: "STORE_LATEST_MOVIES",
+  storeLatestMovies: (payload) => {
     return {
-      type: actions.STORE_MOVIES,
+      type: actions.STORE_LATEST_MOVIES,
       payload,
     };
   },
-  STORE_RECOMMENDED_MOVIES: "STORE_RECOMMENDED_MOVIES",
-  storeRecommendedMovies: (payload) => {
+  STORE_UPCOMING_MOVIES: "STORE_UPCOMING_MOVIES",
+  storeUpcomingMovies: (payload) => {
     return {
-      type: actions.STORE_RECOMMENDED_MOVIES,
+      type: actions.STORE_UPCOMING_MOVIES,
       payload,
     };
   },
-  FETCH_MOVIES: "FETCH_MOVIES",
-  fetchMovies: (payload) => {
+  FETCH_LATEST_MOVIES: "FETCH_LATEST_MOVIES",
+  fetchLatestMovies: (payload) => {
     return {
-      type: actions.FETCH_MOVIES,
+      type: actions.FETCH_LATEST_MOVIES,
       payload,
     };
   },
-  FETCH_RECOMMENDED_MOVIES: "FETCH_RECOMMENDED_MOVIES",
-  fetchRecommendedMovies: (payload) => {
+  FETCH_UPCOMING_MOVIES: "FETCH_UPCOMING_MOVIES",
+  fetchUpcomingMovies: (payload) => {
     return {
-      type: actions.FETCH_RECOMMENDED_MOVIES,
+      type: actions.FETCH_UPCOMING_MOVIES,
       payload,
     };
   },

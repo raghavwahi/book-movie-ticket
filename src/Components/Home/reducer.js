@@ -1,18 +1,18 @@
 import actions from "./actions";
 
 const initialState = {
-  movies: [],
-  recommendedMovies: [],
+  latestMovies: [],
+  upcomingMovies: [],
 };
 
 const Reducer = (state = initialState, action) => {
   const newState = { ...state };
   switch (action.type) {
-    case actions.STORE_MOVIES:
-      newState.movies = action.payload;
+    case actions.STORE_LATEST_MOVIES:
+      newState.latestMovies = action.payload;
       return newState;
     case actions.STORE_RECOMMENDED_MOVIES:
-      newState.recommendedMovies = action.payload;
+      newState.upcomingMovies = action.payload;
       return newState;
     default:
       return state;

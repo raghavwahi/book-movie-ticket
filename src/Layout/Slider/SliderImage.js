@@ -1,11 +1,15 @@
 import React from "react";
 
-import classes from "./SliderImage.module.css"
+import classes from "./SliderImage.module.css";
 
 const SliderImage = (props) => {
+  const containerClasses = `${classes.slide} ${
+    props.visible && classes["active-anim"]
+  }`;
+  
   return (
-    <div className={classes["image-container"]}>
-      <img className={classes.image} src={props.src} alt={props.alt} />
+    <div className={containerClasses}>
+      <img src={props.src} alt={props.alt} />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 
 import SliderImage from "./SliderImage";
 import SliderButton from "./SliderButton";
-// import classes from "./Slider.module.css";
+import classes from "./Slider.module.css";
 import { SLIDER_ICONS } from "../../static/config";
 
 const Slider = (props) => {
@@ -17,7 +17,7 @@ const Slider = (props) => {
   useEffect(() => {
     const timeoutID = setTimeout(() => {
       moveSlideRight();
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timeoutID);
   }, [slideIndex, moveSlideRight]);
@@ -28,26 +28,31 @@ const Slider = (props) => {
       : setSlideIndex(slideIndex + 1);
   };
 
-  const images = props.data
-    .filter((item, index) => {
-      return index === slideIndex;
-    })
-    .map((item) => {
-      return (
-        <SliderImage
-          src={item.imageUrl}
-          alt={item.name}
-          key={item._id}
-          id={item._id}
-        />
-      );
-    });
+  const images = props.data.map((item, index) => {
+    return (
+      <SliderImage
+        visible={index === slideIndex}
+        src={item.imageUrl}
+        alt={item.name}
+        key={item._id}
+        id={item._id}
+      />
+    );
+  });
 
   return (
-    <div className="container-slider">
+    <div className={classes["container-slider"]}>
       {images}
-      <SliderButton path={SLIDER_ICONS.left} moveSlide={moveSlideLeft} />
-      <SliderButton path={SLIDER_ICONS.right} moveSlide={moveSlideRight} />
+      <SliderButton
+        direction="prev"
+        path={SLIDER_ICONS.left}
+        moveSlide={moveSlideLeft}
+      />
+      <SliderButton
+        direction="next"
+        path={SLIDER_ICONS.right}
+        moveSlide={moveSlideRight}
+      />
     </div>
   );
 };
