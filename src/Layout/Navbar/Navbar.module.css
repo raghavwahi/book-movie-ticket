@@ -21,6 +21,14 @@ header li a {
   text-decoration: none;
 }
 
+header li a:hover {
+  color: rgb(255, 208, 208);
+}
+
 .searchbox {
   padding: 0.5rem 1rem;
+}
+
+.active {
+  color: rgb(83, 49, 49);
 }

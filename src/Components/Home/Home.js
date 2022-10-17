@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import actions from "./actions";
+import actions from "../../Reducer/actions";
 import MoviesSlider from "./MoviesSlider";
 import RecommendedMovies from "./RecommendedMovies";
 

@@ -1,7 +1,8 @@
 export const NAVBAR_LINKS = [
-  { linkText: "Latest Movies", path: "/" },
-  { linkText: "Upcoming Movies", path: "/upcoming" },
-  { linkText: "Nearby Events", path: "/random" },
+  { linkText: "Home", path: "/" },
+  { linkText: "Latest Movies", path: "/latest" },
+  { linkText: "Upcoming Movies", path: "/upcomingMovies" },
+  { linkText: "Nearby Events", path: "/events" },
 ];
 
 export const NOT_FOUND_PAGE = {
@@ -24,10 +25,13 @@ export const SLIDER_ICONS = {
 export const API_DATA = {
   url: "http://3.17.216.66:4000/",
   latest: "latest/",
-  upcoming: "upcomingMovies/",
+  upcomingMovies: "upcomingMovies/",
   events: "events/",
 };
 
 export const STRINGS = {
   recommendedMovies: "Recommended Movies",
+  latestMovies: "Latest Movies",
+  upcomingMovies: "Upcoming Movies",
+  nearbyEvents: "Nearby Events",
 };

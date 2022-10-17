@@ -1,7 +1,7 @@
 import { applyMiddleware, combineReducers, compose, createStore } from "redux";
 import createSagaMiddleware from "@redux-saga/core";
 
-import moviesReducer from "./../Components/Home/reducer";
+import moviesReducer from "./../Reducer/reducer";
 import rootSagas from "./Sagas";
 
 const rootReducer = combineReducers({
