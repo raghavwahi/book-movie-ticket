@@ -12,13 +12,15 @@ const StripItem = (props) => {
   return (
     <div className={classes["strip-item"]}>
       <img src={props.src} alt={props.alt} />
-      <button
-        onClick={() => {
-          bookMovieHandler(props.id);
-        }}
-      >
-        Book Now
-      </button>
+      {props.enableButton && (
+        <button
+          onClick={() => {
+            bookMovieHandler(props.id);
+          }}
+        >
+          Book Now
+        </button>
+      )}
     </div>
   );
 };

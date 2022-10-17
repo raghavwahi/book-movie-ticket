@@ -14,7 +14,11 @@ const Latest = () => {
 
   return (
     <main>
-      <Strip data={latestMovies} title={STRINGS.latestMovies} />
+      <Strip
+        data={latestMovies}
+        title={STRINGS.latestMovies}
+        enableButtons={true}
+      />
     </main>
   );
 };

@@ -11,6 +11,7 @@ const Strip = (props) => {
         alt={item.name}
         key={item._id}
         id={item._id}
+        enableButton={props.enableButtons}
       />
     );
   });

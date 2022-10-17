@@ -15,7 +15,7 @@ const Events = () => {
 
   return (
     <main>
-      <Strip data={events} title={STRINGS.nearbyEvents} />
+      <Strip data={events} title={STRINGS.nearbyEvents} enableButtons={false} />
     </main>
   );
 };

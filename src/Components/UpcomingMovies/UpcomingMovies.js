@@ -15,7 +15,11 @@ const UpcomingMovies = () => {
 
   return (
     <main>
-      <Strip data={upcomingMovies} title={STRINGS.upcomingMovies} />
+      <Strip
+        data={upcomingMovies}
+        title={STRINGS.upcomingMovies}
+        enableButtons={false}
+      />
     </main>
   );
 };
