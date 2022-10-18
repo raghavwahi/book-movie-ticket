@@ -5,21 +5,27 @@ import { fetchAPIData } from "../Utils/fetchAPI";
 import actions from "./actions";
 
 function* fetchAPI(path) {
-  const payload = yield { path };
+  const payload = yield path;
   const data = yield fetchAPIData(payload);
   return data;
 }
 
 function* fetchData(action) {
   if (action.type === actions.FETCH_LATEST_MOVIES) {
-    const result = yield call(fetchAPI, API_DATA.latest);
+    const result = yield call(fetchAPI, { path: API_DATA.latest });
     yield put(actions.storeLatestMovies(result));
   } else if (action.type === actions.FETCH_UPCOMING_MOVIES) {
-    const result = yield call(fetchAPI, API_DATA.upcomingMovies);
+    const result = yield call(fetchAPI, { path: API_DATA.upcomingMovies });
     yield put(actions.storeUpcomingMovies(result));
   } else if (action.type === actions.FETCH_EVENTS) {
-    const result = yield call(fetchAPI, API_DATA.events);
+    const result = yield call(fetchAPI, { path: API_DATA.events });
     yield put(actions.storeEvents(result));
+  } else if (action.type === actions.FETCH_MOVIE) {
+    const result = yield call(fetchAPI, {
+      path: API_DATA.latest,
+      id: action.payload.id,
+    });
+    yield put(actions.storeMovie(result));
   }
 }
 
@@ -29,6 +35,7 @@ export default function* watcherSaga() {
       actions.FETCH_LATEST_MOVIES,
       actions.FETCH_UPCOMING_MOVIES,
       actions.FETCH_EVENTS,
+      actions.FETCH_MOVIE,
     ],
     fetchData
   );

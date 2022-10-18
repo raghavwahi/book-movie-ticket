@@ -12,13 +12,6 @@
   background-color: #ea0800;
 }
 
-.btn-slide svg {
-  width: 25px;
-  height: 25px;
-  pointer-events: none;
-  fill: #fff;
-}
-
 .prev {
   top: 50%;
   left: 20px;

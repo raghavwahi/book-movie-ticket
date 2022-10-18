@@ -1,16 +1,14 @@
 import React from "react";
 
 import classes from "./SliderButton.module.css";
-import { SLIDER_ICONS } from "../../static/config";
+import Svg from "../Svg/Svg";
 
 const SliderButton = (props) => {
   const className = `${classes["btn-slide"]} ${classes[props.direction]}`;
 
   return (
     <button className={className} onClick={props.moveSlide}>
-      <svg xmlns={SLIDER_ICONS.url}>
-        <path d={props.path} />
-      </svg>
+      <Svg path={props.path} />
     </button>
   );
 };

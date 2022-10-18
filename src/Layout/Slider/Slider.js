@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import SliderImage from "./SliderImage";
 import SliderButton from "./SliderButton";
 import classes from "./Slider.module.css";
-import { SLIDER_ICONS } from "../../static/config";
+import { ICONS } from "../../static/config";
 
 const Slider = (props) => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -45,12 +45,12 @@ const Slider = (props) => {
       {images}
       <SliderButton
         direction="prev"
-        path={SLIDER_ICONS.left}
+        path={ICONS.left}
         moveSlide={moveSlideLeft}
       />
       <SliderButton
         direction="next"
-        path={SLIDER_ICONS.right}
+        path={ICONS.right}
         moveSlide={moveSlideRight}
       />
     </div>
