@@ -1,0 +1,26 @@
+.loading {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #ffffff;
+  border-top-color: #ea0800;
+  border-radius: 50%;
+  transform: rotate(0.16turn);
+  animation: loading 1.3s ease infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

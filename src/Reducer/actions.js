@@ -20,13 +20,6 @@ const actions = {
       payload,
     };
   },
-  STORE_MOVIE: "STORE_MOVIE",
-  storeMovie: (payload) => {
-    return {
-      type: actions.STORE_MOVIE,
-      payload,
-    };
-  },
   FETCH_LATEST_MOVIES: "FETCH_LATEST_MOVIES",
   fetchLatestMovies: (payload) => {
     return {
@@ -45,13 +38,6 @@ const actions = {
   fetchEvents: (payload) => {
     return {
       type: actions.FETCH_EVENTS,
-      payload,
-    };
-  },
-  FETCH_MOVIE: "FETCH_MOVIE",
-  fetchMovie: (payload) => {
-    return {
-      type: actions.FETCH_MOVIE,
       payload,
     };
   },

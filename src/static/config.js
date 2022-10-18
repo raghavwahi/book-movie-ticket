@@ -37,3 +37,7 @@ export const STRINGS = {
   nearbyEvents: "Nearby Events",
   bookNow: "Book Now",
 };
+
+export const PARAMS = {
+  pageTimeout: 30000,
+};

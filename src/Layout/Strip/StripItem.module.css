@@ -3,7 +3,7 @@
   flex-direction: column;
   width: auto;
   height: auto;
-  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0.3rem 0.2rem 0.5rem 0 rgb(0, 0, 0, 0.6);
 }
 
 .strip-item img {

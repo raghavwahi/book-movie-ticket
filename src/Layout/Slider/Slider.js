@@ -34,7 +34,7 @@ const Slider = (props) => {
         visible={index === slideIndex}
         src={item.imageUrl}
         alt={item.name}
-        key={item._id}
+        key={index} // Added index as key because combined API data has same ids (API issue)
         id={item._id}
       />
     );

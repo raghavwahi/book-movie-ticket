@@ -10,11 +10,16 @@ const ViewContainer = (props) => {
   const listInformation = types.map((type) => {
     return <p key={type}>{type}</p>;
   });
+
   return (
     <div className={classes["container-details"]}>
       <p className={classes.title}>{props.data.name}</p>
       <div>
-        <img src={props.data.imageUrl} alt={props.data.name}></img>
+        <img
+          className={classes.shadow}
+          src={props.data.imageUrl}
+          alt={props.data.name}
+        ></img>
         <div>
           <p className={classes["sub-text"]}>{props.data.language}</p>
           <div className={classes["list-info"]}>{listInformation}</div>
@@ -24,7 +29,11 @@ const ViewContainer = (props) => {
           </div>
         </div>
       </div>
-      <Button onClick={props.onClickHandler} title={STRINGS.bookNow} />
+      <Button
+        className={classes.shadow}
+        onClick={props.onClickHandler}
+        title={STRINGS.bookNow}
+      />
     </div>
   );
 };

@@ -6,7 +6,7 @@ import classes from "./NotFound.module.css";
 
 const NotFound = () => {
   return (
-    <div>
+    <main>
       <p className={classes.heading}>{NOT_FOUND_PAGE.heading}</p>
       <div className={classes["sub-heading-container"]}>
         <p className={classes["sub-heading"]}>{NOT_FOUND_PAGE.subHeading1}</p>
@@ -16,7 +16,7 @@ const NotFound = () => {
           {NOT_FOUND_PAGE.subHeading2[2]}
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

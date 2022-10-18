@@ -4,7 +4,6 @@ const initialState = {
   latestMovies: [],
   upcomingMovies: [],
   events: [],
-  movie: {},
 };
 
 const Reducer = (state = initialState, action) => {
@@ -18,13 +17,6 @@ const Reducer = (state = initialState, action) => {
       return newState;
     case actions.STORE_EVENTS:
       newState.events = [...action.payload];
-      return newState;
-    case actions.STORE_MOVIE:
-      if (!action.payload) {
-        newState.movie = {};
-      } else {
-        newState.movie = { ...action.payload };
-      }
       return newState;
     default:
       return state;

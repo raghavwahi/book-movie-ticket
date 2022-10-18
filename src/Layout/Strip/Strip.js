@@ -4,7 +4,8 @@ import classes from "./Strip.module.css";
 import StripItem from "./StripItem";
 
 const Strip = (props) => {
-  const images = props.data.map((item) => {
+  const data = props.data.slice(0, 7);
+  const images = data.map((item) => {
     return (
       <StripItem
         src={item.imageUrl}

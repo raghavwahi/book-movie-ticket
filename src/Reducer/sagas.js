@@ -20,12 +20,6 @@ function* fetchData(action) {
   } else if (action.type === actions.FETCH_EVENTS) {
     const result = yield call(fetchAPI, { path: API_DATA.events });
     yield put(actions.storeEvents(result));
-  } else if (action.type === actions.FETCH_MOVIE) {
-    const result = yield call(fetchAPI, {
-      path: API_DATA.latest,
-      id: action.payload.id,
-    });
-    yield put(actions.storeMovie(result));
   }
 }
 
@@ -35,7 +29,6 @@ export default function* watcherSaga() {
       actions.FETCH_LATEST_MOVIES,
       actions.FETCH_UPCOMING_MOVIES,
       actions.FETCH_EVENTS,
-      actions.FETCH_MOVIE,
     ],
     fetchData
   );
