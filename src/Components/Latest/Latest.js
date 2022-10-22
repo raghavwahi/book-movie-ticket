@@ -1,47 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
+import { useSelector } from "react-redux";
 
-import Loading from "../../Layout/Loading/Loading";
-import Strip from "../../Layout/Strip/Strip";
+import Overview from "../../Layout/Overview/Overview";
 import actions from "../../Reducer/actions";
 import { STRINGS } from "../../static/config";
-import { filterData } from "../../Utils/filterData";
 
 const Latest = () => {
   const { latestMovies } = useSelector((store) => store.movies);
-  const { searchValue } = useSelector((store) => store.search);
-  const dispatch = useDispatch();
-  const [loading, setLoading] = useState(true);
-  const [filteredLatestMovies, setFilteredLatestMovies] = useState([]);
-
-  useEffect(() => {
-    if (!latestMovies.length) {
-      dispatch(actions.fetchLatestMovies());
-    }
-  }, [dispatch, latestMovies]);
-
-  useEffect(() => {
-    if (latestMovies.length) {
-      setLoading(false);
-    }
-  }, [latestMovies]);
-
-  useEffect(() => {
-    setFilteredLatestMovies([...filterData(latestMovies, searchValue)]);
-  }, [searchValue, latestMovies]);
-
-  if (loading) {
-    return <Loading />;
-  }
 
   return (
-    <main>
-      <Strip
-        data={filteredLatestMovies}
-        title={STRINGS.latestMovies}
-        enableButtons={true}
-      />
-    </main>
+    <Overview
+      data={latestMovies}
+      title={STRINGS.latestMovies}
+      enableButtons={true}
+      action={actions.fetchLatestMovies()}
+    />
   );
 };
 

@@ -8,7 +8,7 @@ export const fetchAPIData = async (payload) => {
     "X-Requested-With": "XMLHttpRequest",
   };
   // TODO(raghav.wahi): Remove URL Prefix before build
-  let url = `http://192.168.29.30:5000/${API_DATA.url}${path}/`;
+  let url = `http://192.168.29.31:5000/${API_DATA.url}${path}/`;
 
   if (id) {
     url += id;
