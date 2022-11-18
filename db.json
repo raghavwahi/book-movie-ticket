@@ -1,0 +1,464 @@
+{
+  "latest": [
+    {
+      "id": "ebcbabfa5062450392fd77ca7415dc4f",
+      "name": "The Shawshank Redemption",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 5,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "baa6c42971934f3894c4ade82f0c1280",
+      "name": "The Godfather",
+      "language": "ENGLISH",
+      "type": "Crime Drama",
+      "rate": 5,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY307_CR1,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "f3a4c6f9881d450fb0f5da951c982cb6",
+      "name": "The Dark Knight",
+      "language": "ENGLISH",
+      "type": "Action Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "198a60f72be14cf580c1bbdd1ac43358",
+      "name": "The Godfather: Part II",
+      "language": "ENGLISH",
+      "type": "Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY307_CR1,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "1ad3dde73f9148b391cd8c8b43e867f8",
+      "name": "12 Angry Men",
+      "language": "ENGLISH",
+      "type": "Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "a485425fa5ae43b1952566b064ac0d0c",
+      "name": "The Lord of the Rings: The Return of the King",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "19b986df5d484f1097e64a5ba0ab5ec6",
+      "name": "Pulp Fiction",
+      "language": "ENGLISH",
+      "type": "Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "c8e7dafb350a4e72858f629c2398939e",
+      "name": "Schindler's List",
+      "language": "ENGLISH",
+      "type": "Biography Drama History",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "f00b604ebbb74496943933bbc9a16a53",
+      "name": "Inception",
+      "language": "ENGLISH",
+      "type": "Action Adventure Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "3828b0c28ba647d4879a8d14b30e9c8c",
+      "name": "Fight Club",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "1ed3696ce43645a09ba82a6a81f74c3b",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "61b5f184b55d40fb8480e3e7e74076a8",
+      "name": "Forrest Gump",
+      "language": "ENGLISH",
+      "type": "Drama Romance",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "614503efbdc248be9fcb5ea7523a34ae",
+      "name": "Il buono, il brutto, il cattivo",
+      "language": "ENGLISH",
+      "type": "Western",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "7354c972e1c246678ded6e22649b5bfe",
+      "name": "The Lord of the Rings: The Two Towers",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "adb3659de8324c2eb1d1f8db38657031",
+      "name": "The Matrix",
+      "language": "ENGLISH",
+      "type": "Action Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "9db83fe3a6d746b48a874140dbd49301",
+      "name": "Goodfellas",
+      "language": "ENGLISH",
+      "type": "Biography Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "49c688d5abb24a98988e3b3657e5424b",
+      "name": "One Flew Over the Cuckoo's Nest",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "64f26f5d172341b8bb41d2bcae363028",
+      "name": "Hamilton",
+      "language": "ENGLISH",
+      "type": "Biography Drama History",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "56dcc9534c934fd5982c91ab18b62d85",
+      "name": "Gisaengchung",
+      "language": "ENGLISH",
+      "type": "Comedy Drama Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    }
+  ],
+  "upcomingMovies": [
+    {
+      "id": "0afa41362b83400c89e864513408bcb6",
+      "name": "Soorarai Pottru",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTc2ZTlmYmItMDBhYS00YmMzLWI4ZjAtMTI5YTBjOTFiMGEwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "5c153dabc3a64af18b6f7cbc4102fb9d",
+      "name": "Interstellar",
+      "language": "ENGLISH",
+      "type": "Adventure Drama Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "8163d632b8874fe28ed594be64ed5523",
+      "name": "Cidade de Deus",
+      "language": "ENGLISH",
+      "type": "Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "dc7cb48e0f7f40d38fd0adf75a3746be",
+      "name": "Sen to Chihiro no kamikakushi",
+      "language": "ENGLISH",
+      "type": "Animation Adventure Family",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "31a0ba7bbda348d3994f8415eec809b9",
+      "name": "Saving Private Ryan",
+      "language": "ENGLISH",
+      "type": "Drama War",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "f5b3a509d0264f8680ae200ff98216d5",
+      "name": "The Green Mile",
+      "language": "ENGLISH",
+      "type": "Crime Drama Fantasy",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "1f92c47ee9de46b2bc4feeba863e5586",
+      "name": "La vita \u00e8 bella",
+      "language": "ENGLISH",
+      "type": "Comedy Drama Romance",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "80734a3260754086aa6fd313b1d1512b",
+      "name": "Se7en",
+      "language": "ENGLISH",
+      "type": "Crime Drama Mystery",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "4589dfeed1c640c588ade26974d52d26",
+      "name": "The Silence of the Lambs",
+      "language": "ENGLISH",
+      "type": "Crime Drama Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "42dc0c2fb7b64ac894653b1443721087",
+      "name": "Seppuku",
+      "language": "ENGLISH",
+      "type": "Action Drama Mystery",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UY307_CR2,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "da77ceeb0c0a4ef3b0eebd0085d1e73e",
+      "name": "Shichinin no samurai",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOWE4ZDdhNmMtNzE5ZC00NzExLTlhNGMtY2ZhYjYzODEzODA1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY307_CR1,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "266f97d830944e528b7780d969c8c000",
+      "name": "It's a Wonderful Life",
+      "language": "ENGLISH",
+      "type": "Drama Family Fantasy",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "ad1cb661060d42eb857cf1cb0001a59d",
+      "name": "Joker",
+      "language": "ENGLISH",
+      "type": "Crime Drama Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "3a3be2357a11448cb8758a6cde1aba29",
+      "name": "Whiplash",
+      "language": "ENGLISH",
+      "type": "Drama Music",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "8019b18e9db44bb699d62701bfbb0cd1",
+      "name": "The Intouchables",
+      "language": "ENGLISH",
+      "type": "Biography Comedy Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "62dc7e2193ab41b0a5549d2d83e1f8a3",
+      "name": "The Prestige",
+      "language": "ENGLISH",
+      "type": "Drama Mystery Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "140bd0fe499a42339688366ca7daff97",
+      "name": "The Departed",
+      "language": "ENGLISH",
+      "type": "Crime Drama Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "ce36654f7bb24e4b8b68aead4ae20465",
+      "name": "The Pianist",
+      "language": "ENGLISH",
+      "type": "Biography Drama Music",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY307_CR2,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "79e04509658e48b9a81a88217f5589a9",
+      "name": "Gladiator",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "74f8294d8d5b430b94878960b9c4aab9",
+      "name": "American History X",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "2ee5c502e8d94a688f6a11fd39848b17",
+      "name": "The Usual Suspects",
+      "language": "ENGLISH",
+      "type": "Crime Mystery Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "6bb08813f97248e9997ff8eccb9d1ae5",
+      "name": "L\u00e9on",
+      "language": "ENGLISH",
+      "type": "Action Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "d27547032e2e4fe7b7100c5e67c019e2",
+      "name": "The Lion King",
+      "language": "ENGLISH",
+      "type": "Animation Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "1a5dfe83d59c497eb8522851b6ef9115",
+      "name": "Terminator 2: Judgment Day",
+      "language": "ENGLISH",
+      "type": "Action Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "e8b82d871ab94ece9858a9b91f014e32",
+      "name": "Nuovo Cinema Paradiso",
+      "language": "ENGLISH",
+      "type": "Drama Romance",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "6b982156e06d40759d8ea9d2dd6cbcb1",
+      "name": "Hotaru no haka",
+      "language": "ENGLISH",
+      "type": "Animation Drama War",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "a662a5d4b4a14e1f89fd7be58c2b143d",
+      "name": "Back to the Future",
+      "language": "ENGLISH",
+      "type": "Adventure Comedy Sci-Fi",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "0363041a64d246dcb7fb10bdfa8458f9",
+      "name": "Psycho",
+      "language": "ENGLISH",
+      "type": "Horror Mystery Thriller",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "774a98d6cdf0462c8f99c1f703a32325",
+      "name": "Casablanca",
+      "language": "ENGLISH",
+      "type": "Drama Romance War",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "a63699c23f0f4f29a2f1d91947c64031",
+      "name": "Modern Times",
+      "language": "ENGLISH",
+      "type": "Comedy Drama Family",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "fac4c87ae8a64956af9ba7c41876ddf1",
+      "name": "City Lights",
+      "language": "ENGLISH",
+      "type": "Comedy Drama Romance",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "839f187417304734a32faf11967140eb",
+      "name": "Capharna\u00fcm",
+      "language": "ENGLISH",
+      "type": "Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "c05eacab93bb409695f4d92a24c2c05b",
+      "name": "Ayla: The Daughter of War",
+      "language": "ENGLISH",
+      "type": "Biography Drama History",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWJhMDlmZGUtYzcxNS00NDRiLWIwNjktNDY1Mjg3ZjBkYzY0XkEyXkFqcGdeQXVyMTU4MjUwMjI@._V1_UY307_CR2,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "339ac90024fa497b8cb270d1d04585d3",
+      "name": "Vikram Vedha",
+      "language": "ENGLISH",
+      "type": "Action Crime Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2FiMTFmMzMtZDI2ZC00NDQyLWExYTUtOWNmZWM1ZDg5YjVjXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "3ada64b136a646169cb314fde544acec",
+      "name": "Kimi no na wa.",
+      "language": "ENGLISH",
+      "type": "Animation Drama Fantasy",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "93a024687b2b42d3baf0855889730b6a",
+      "name": "Dangal",
+      "language": "ENGLISH",
+      "type": "Action Biography Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY307_CR1,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "a27bfdaf5db0462d97ffa2b6ef33824c",
+      "name": "Spider-Man: Into the Spider-Verse",
+      "language": "ENGLISH",
+      "type": "Animation Action Adventure",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    },
+    {
+      "id": "c43c429d2bb74ef2a8087408020013ac",
+      "name": "Avengers: Endgame",
+      "language": "ENGLISH",
+      "type": "Action Adventure Drama",
+      "rate": 4,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX307_CR0,0,307,455_AL_.jpg"
+    }
+  ]
+}

@@ -10,8 +10,8 @@ const Strip = (props) => {
       <StripItem
         src={item.imageUrl}
         alt={item.name}
-        key={item._id}
-        id={item._id}
+        key={item.id}
+        id={item.id}
         enableButton={props.enableButtons}
       />
     );

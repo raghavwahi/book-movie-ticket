@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "../Layout/Navbar/Navbar";
 import { API_DATA } from "../static/config";
+import BookingRoute from "./BookingRoute";
+import DetailsRoute from "./DetailsRoute";
 import EventsRoute from "./EventsRoute";
 import HomeRoute from "./HomeRoute";
 import LatestRoute from "./LatestRoute";
@@ -18,6 +20,8 @@ const AppRouter = () => {
         <Route path="/" element={<HomeRoute />} />
         <Route path={`/${API_DATA.latest}`} element={<LatestRoute />} />
         <Route path={`/${API_DATA.latest}:id`} element={<MovieRoute />} />
+        <Route path={`/${API_DATA.book}`} element={<BookingRoute />} />
+        <Route path={`/${API_DATA.details}:id`} element={<DetailsRoute />} />
         <Route
           path={`/${API_DATA.upcomingMovies}`}
           element={<UpcomingMoviesRoute />}

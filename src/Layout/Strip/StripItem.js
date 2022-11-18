@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 
-import { STRINGS } from "../../static/config";
+import { API_DATA, STRINGS } from "../../static/config";
 import Button from "../Button/Button";
 import classes from "./StripItem.module.css";
 
@@ -9,7 +9,7 @@ const StripItem = (props) => {
   const navigate = useNavigate();
 
   const bookMovieHandler = (id) => {
-    navigate(`/latest/${id}`);
+    navigate(`/${API_DATA.latest}${id}`);
   };
 
   return (

@@ -39,7 +39,7 @@ const Home = () => {
 
   return (
     <main>
-      <MoviesSlider movies={[...latestMovies, ...upcomingMovies]} />
+      <MoviesSlider movies={[...upcomingMovies]} />
       <RecommendedMovies movies={filteredLatestMovies} />
     </main>
   );

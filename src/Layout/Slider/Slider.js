@@ -35,7 +35,7 @@ const Slider = (props) => {
         src={item.imageUrl}
         alt={item.name}
         key={index} // Added index as key because combined API data has same ids (API issue)
-        id={item._id}
+        id={item.id}
       />
     );
   });

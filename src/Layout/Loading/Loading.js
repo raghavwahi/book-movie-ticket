@@ -11,10 +11,9 @@ const Loading = () => {
     if (!erroredOut) {
       setTimeout(() => {
         setErroredOut(true);
-        console.log('1234');
       }, PARAMS.pageTimeout);
     }
-  })
+  });
 
   if (erroredOut) {
     return <Timeout />;

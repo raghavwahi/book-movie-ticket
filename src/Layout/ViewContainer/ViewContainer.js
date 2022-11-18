@@ -2,6 +2,7 @@ import React from "react";
 
 import { ICONS, STRINGS } from "../../static/config";
 import Button from "../Button/Button";
+import Container from "../Container/Container";
 import Svg from "../Svg/Svg";
 import classes from "./ViewContainer.module.css";
 
@@ -12,9 +13,9 @@ const ViewContainer = (props) => {
   });
 
   return (
-    <div className={classes["container-details"]}>
+    <Container>
       <p className={classes.title}>{props.data.name}</p>
-      <div>
+      <div className={classes["sub-container"]}>
         <img
           className={classes.shadow}
           src={props.data.imageUrl}
@@ -31,10 +32,10 @@ const ViewContainer = (props) => {
       </div>
       <Button
         className={classes.shadow}
-        onClick={props.onClickHandler}
+        onClick={props.onClick}
         title={STRINGS.bookNow}
       />
-    </div>
+    </Container>
   );
 };
 
