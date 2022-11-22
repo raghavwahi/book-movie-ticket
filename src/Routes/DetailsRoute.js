@@ -1,7 +1,8 @@
 import React from "react";
+import Details from "../Components/Details/Details";
 
 const DetailsRoute = () => {
-  return <h1>details</h1>;
+  return <Details />;
 };
 
 export default DetailsRoute;

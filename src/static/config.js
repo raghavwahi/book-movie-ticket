@@ -44,6 +44,7 @@ export const API_DATA = {
   events: "events/",
   book: "book/",
   details: "details/",
+  qrUrl: "https://api.qrserver.com/v1/create-qr-code/?size=320X320&data=",
 };
 
 export const STRINGS = {
@@ -57,4 +58,5 @@ export const STRINGS = {
 export const PARAMS = {
   pageTimeout: 30000,
   availableShowtimes: ["11:00 AM", "3:00 PM", "7:00 PM", "11:00 PM"],
+  date: new Date().toDateString(),
 };

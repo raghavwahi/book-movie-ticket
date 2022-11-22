@@ -1,0 +1,22 @@
+.sub-text {
+  color: #ea0800;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  border-radius: 0.8rem;
+  width: fit-content;
+}
+
+.sub-container {
+  display: flex;
+  border: 1px solid #ea0800;
+  border-radius: 0.35rem;
+}
+
+.sub-container img {
+  margin: 1rem;
+}
+
+.shadow {
+  box-shadow: 0.3rem 0.2rem 0.5rem 0 rgb(0, 0, 0, 0.6);
+}

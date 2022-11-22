@@ -21,7 +21,7 @@ const AppRouter = () => {
         <Route path={`/${API_DATA.latest}`} element={<LatestRoute />} />
         <Route path={`/${API_DATA.latest}:id`} element={<MovieRoute />} />
         <Route path={`/${API_DATA.book}`} element={<BookingRoute />} />
-        <Route path={`/${API_DATA.details}:id`} element={<DetailsRoute />} />
+        <Route path={`/${API_DATA.details}`} element={<DetailsRoute />} />
         <Route
           path={`/${API_DATA.upcomingMovies}`}
           element={<UpcomingMoviesRoute />}

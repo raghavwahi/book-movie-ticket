@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { ICONS, PARAMS, STRINGS } from "../../static/config";
 import Button from "../Button/Button";
@@ -7,33 +7,14 @@ import classes from "./BookContainer.module.css";
 import SeatsButton from "./SeatsButton";
 
 const BookContainer = (props) => {
-  const [seatCount, setSeatCount] = useState(1);
   const inputs = PARAMS.availableShowtimes.map((showtime, index) => {
     return (
-      <div>
-        <input
-          id={index}
-          key={showtime}
-          type="radio"
-          value={showtime}
-          name="showtime"
-        />
+      <div key={showtime}>
+        <input id={index} type="radio" value={showtime} name="showtime" />
         <label htmlFor={index}>{showtime}</label>
       </div>
     );
   });
-
-  const addSeatHandler = () => {
-    if (seatCount + 1 <= 10) {
-      setSeatCount(seatCount + 1);
-    }
-  };
-
-  const removeSeatHandler = () => {
-    if (seatCount > 1) {
-      setSeatCount(seatCount - 1);
-    }
-  };
 
   return (
     <Container>
@@ -45,12 +26,15 @@ const BookContainer = (props) => {
           alt={props.data.name}
         ></img>
         <div>
-          <p className={classes["sub-text"]}>{new Date().toDateString()}</p>
+          <p className={classes["sub-text"]}>{PARAMS.date}</p>
           <div className={classes["list-info"]}>{inputs}</div>
           <div className={classes["seat-buttons"]}>
-            <SeatsButton changeSeats={removeSeatHandler} path={ICONS.remove} />
-            <p className={classes["sub-text"]}>{seatCount}</p>
-            <SeatsButton changeSeats={addSeatHandler} path={ICONS.add} />
+            <SeatsButton
+              changeSeats={props.removeSeatHandler}
+              path={ICONS.remove}
+            />
+            <p className={classes["sub-text"]}>{props.seatCount}</p>
+            <SeatsButton changeSeats={props.addSeatHandler} path={ICONS.add} />
           </div>
         </div>
       </div>
